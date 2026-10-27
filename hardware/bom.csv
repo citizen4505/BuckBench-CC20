@@ -1,0 +1,39 @@
+Reference,Qty,Value,Symbol
+A1,1,LM2596S_modul (W103 a spodní R odstranit),Lab:LM2596_modul
+A2,1,MP1584_modul (5 V),Lab:MP1584_modul
+A3,1,Blue Pill (STM32F103C8T6),Lab:BluePill_STM32F103C8
+C1,1,470µF/35V,Device:C_Polarized
+C2 C3 C4 C5 C8 C9 C10,7,100nF,Device:C
+C6 C7,2,1µF,Device:C
+D1,1,BAT54,Device:D_Schottky
+D2,1,1N5819,Device:D_Schottky
+D3,1,zelená – zobrazeno U,Device:LED
+D4,1,žlutá – zobrazeno I,Device:LED
+D5,1,červená – omezení proudu,Device:LED
+D6,1,modrá – výstup zapnut,Device:LED
+D7,1,SMBJ24CA,Device:D_TVS
+D8,1,SS54 (přepólování),Device:D_Schottky
+D9,1,SS54,Device:D_Schottky
+DS1,1,"4 místa, spol. katoda (např. 5641AS)",Display_Character:CC56-12EWA
+F1,1,T 3 A,Device:Fuse
+J1,1,VSTUP 24 V DC,Connector:Screw_Terminal_01x02
+J2,1,VÝSTUP,Connector:Screw_Terminal_01x02
+Q1 Q2 Q3 Q4,4,BC337,Transistor_BJT:BC337
+Q5,1,BC547,Transistor_BJT:BC547
+R1,1,0R1 1W bočník,Device:R
+R2,1,100k 1%,Device:R
+R3 R18,2,10k 1%,Device:R
+R4 R5 R8 R11 R13 R14 R15 R16,8,10k,Device:R
+R6,1,100k,Device:R
+R7 R9 R10 R40 R41 R42 R43,7,1k,Device:R
+R12 R30 R31 R32 R33,5,470R,Device:R
+R17,1,680R 1%,Device:R
+R20 R21 R22 R23 R24 R25 R26 R27,8,100R,Device:R
+RT1,1,NTC 10k (chladič),Device:Thermistor_NTC
+RV1,1,10k lin – U hrubě,Device:R_Potentiometer
+RV2,1,500R lin – U jemně,Device:R_Potentiometer
+RV3,1,10k lin – limit I,Device:R_Potentiometer
+SW1,1,SÍŤOVÝ VYPÍNAČ,Switch:SW_SPST
+SW2,1,U/I (MODE),Switch:SW_Push
+SW3,1,VÝSTUP ON/OFF,Switch:SW_Push
+U1,1,LM358,Amplifier_Operational:LM358

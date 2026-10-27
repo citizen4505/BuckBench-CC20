@@ -1,0 +1,16 @@
+# KiCad
+*-backups/
+*.kicad_prl
+*.lck
+fp-info-cache
+_autosave-*
+*.bak
+# netlist a pomocné výstupy generátoru
+*.net
+netpins.json
+# Python
+__pycache__/
+# firmware build
+firmware/**/build/
+firmware/**/Debug/
+firmware/**/Release/
