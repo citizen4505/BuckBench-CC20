@@ -1,8 +1,8 @@
-# BuckBench
+# Buckbench-CC20
 
 Mini kompaktní laboratorní zdroj postavený na levném modulu **LM2596S** (step-down), doplněný o omezení proudu (CC), měření napětí a proudu a řízení mikrokontrolérem **STM32F103** (Blue Pill).
 
-📄 [Schéma zapojení (PDF)](hardware/buckbench.pdf) · [BOM](hardware/bom.csv)
+📄 [Schéma zapojení (PDF)](hardware/buckbench-cc20.pdf) · [BOM](hardware/bom.csv)
 
 ## Specifikace
 

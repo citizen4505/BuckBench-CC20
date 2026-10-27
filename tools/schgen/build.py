@@ -2,7 +2,7 @@
 import math, uuid, sys, os, json
 from sexp import *
 
-PROJECT = 'buckbench'
+PROJECT = 'buckbench-cc20'
 OUTDIR = sys.argv[1] if len(sys.argv) > 1 else '../../hardware'
 ROOT_UUID = str(uuid.uuid5(uuid.NAMESPACE_DNS, 'buckbench_root'))
 POWER_NETS = {'GND': 'GND', '+5V': '+5V', '+3V3': '+3V3'}
@@ -356,7 +356,7 @@ S.text(
     "Displej: 2 des. místa: 12.34 V / 1.23 A",
     307, 156, 1.27)
 
-tb = [Sym('title_block'), [Sym('title'), 'BuckBench – mini laboratorní zdroj (LM2596S + STM32)'],
+tb = [Sym('title_block'), [Sym('title'), 'Buckbench-CC20 – laboratorní zdroj 20 V / 2 A'],
       [Sym('date'), '2026-10-27'], [Sym('rev'), '1'],
       [Sym('comment'), 1, 'CV: modul LM2596S, CC: LM358 do FB, měření U/I a displej: STM32F103 (Blue Pill)'],
       [Sym('comment'), 2, 'Výstup 1,25–20 V / 0–2 A, vstup 24 V DC']]

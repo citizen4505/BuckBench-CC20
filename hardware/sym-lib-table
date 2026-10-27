@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Lab")(type "KiCad")(uri "${KIPRJMOD}/Lab.kicad_sym")(options "")(descr "BuckBench moduly"))
+  (lib (name "Lab")(type "KiCad")(uri "${KIPRJMOD}/Lab.kicad_sym")(options "")(descr "Buckbench-CC20 moduly"))
 )

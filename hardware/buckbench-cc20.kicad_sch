@@ -4,7 +4,7 @@
   (uuid "8519c7ce-4948-56da-b8bb-2b9220a1fb0f")
   (paper "A3")
   (title_block
-    (title "BuckBench – mini laboratorní zdroj (LM2596S + STM32)")
+    (title "Buckbench-CC20 – laboratorní zdroj 20 V / 2 A")
     (date "2026-10-27")
     (rev "1")
     (comment 1 "CV: modul LM2596S, CC: LM358 do FB, měření U/I a displej: STM32F103 (Blue Pill)")
@@ -3441,7 +3441,7 @@
     (pin "1" (uuid "6c2509eb-d2d5-5135-b0e8-2a63edf8389c"))
     (pin "2" (uuid "53856a54-5f8f-5dc2-b793-c3a79cea7f61"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "J1")
           (unit 1)
@@ -3505,7 +3505,7 @@
     )
     (pin "1" (uuid "8840410a-3f02-5e67-a4e0-f9058f8efa86"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR001")
           (unit 1)
@@ -3552,7 +3552,7 @@
     (pin "1" (uuid "31f90886-b009-515a-a41b-20bd9e6bd9c9"))
     (pin "2" (uuid "38ea99e6-aca9-595f-ac7a-34454dc6f8b3"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "F1")
           (unit 1)
@@ -3627,7 +3627,7 @@
     (pin "1" (uuid "c9d6de39-513d-55a4-805d-851818661d6e"))
     (pin "2" (uuid "2a270ed5-3ff0-5403-b5c2-8c697b12d41a"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "D7")
           (unit 1)
@@ -3691,7 +3691,7 @@
     )
     (pin "1" (uuid "5a35c35a-3d52-5994-9fd6-cb9512b8a5bb"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR002")
           (unit 1)
@@ -3738,7 +3738,7 @@
     (pin "1" (uuid "8f9a118e-3a91-58a4-847a-b7170cd78e17"))
     (pin "2" (uuid "745e23b2-0dd2-5f31-8d2e-cec4bc618b3b"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "D8")
           (unit 1)
@@ -3811,7 +3811,7 @@
     (pin "1" (uuid "655483c0-f87e-5ae4-9d22-a3a18e7c6417"))
     (pin "2" (uuid "ecf02815-23b2-5bd3-b25f-120997aaa699"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "SW1")
           (unit 1)
@@ -3890,7 +3890,7 @@
     (pin "4" (uuid "0b34ec60-4037-5206-98f4-27399658ec1c"))
     (pin "6" (uuid "a7d05b4f-cec4-5f44-bafd-eae2d0f8d750"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "A1")
           (unit 1)
@@ -3954,7 +3954,7 @@
     )
     (pin "1" (uuid "fdf2f689-82ec-56a5-b24d-67dd38545e19"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR003")
           (unit 1)
@@ -4032,7 +4032,7 @@
     )
     (pin "1" (uuid "348b7f6d-7ea2-550a-af11-387a150a183d"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR004")
           (unit 1)
@@ -4093,7 +4093,7 @@
     (pin "1" (uuid "2f1b006e-b1e0-52db-a936-f6dcd79e9b5b"))
     (pin "2" (uuid "f1d95725-d1fa-5bf3-9696-31f0301efff3"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "C1")
           (unit 1)
@@ -4157,7 +4157,7 @@
     )
     (pin "1" (uuid "c3b851a9-316d-50fb-a659-0cf092f92766"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR005")
           (unit 1)
@@ -4205,7 +4205,7 @@
     (pin "2" (uuid "8bd8f693-d459-504b-8471-a557be1b1b5b"))
     (pin "3" (uuid "7a63f0f9-aaf4-56fc-b019-e4c2bc8cb79b"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "RV1")
           (unit 1)
@@ -4295,7 +4295,7 @@
     (pin "2" (uuid "7dd4a3ed-d8ea-52d3-8f5f-082b1617962e"))
     (pin "3" (uuid "94804602-2fba-5cdb-ad69-959ed0e2a101"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "RV2")
           (unit 1)
@@ -4384,7 +4384,7 @@
     (pin "1" (uuid "787e5bcb-6377-5032-a371-e7603bc63d79"))
     (pin "2" (uuid "f5469e35-b5ee-5ae3-a3be-d084c7917c7e"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R1")
           (unit 1)
@@ -4448,7 +4448,7 @@
     )
     (pin "1" (uuid "07fb710d-3a9d-5df5-9d56-282439612268"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR006")
           (unit 1)
@@ -4495,7 +4495,7 @@
     (pin "1" (uuid "9cd29bbb-d233-5deb-8740-0fa98142dad8"))
     (pin "2" (uuid "4c82386a-e82a-5022-97d8-b0c512a0beb0"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "J2")
           (unit 1)
@@ -4570,7 +4570,7 @@
     (pin "1" (uuid "fd6ed973-b0e7-5a48-8afc-adff14dafef3"))
     (pin "2" (uuid "c43966ff-81c5-5209-a3a4-79b039ada233"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R17")
           (unit 1)
@@ -4634,7 +4634,7 @@
     )
     (pin "1" (uuid "558fbab5-5821-5f36-8001-1df46afd00e8"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR007")
           (unit 1)
@@ -4681,7 +4681,7 @@
     (pin "1" (uuid "551c1da7-4df3-5241-924d-06d65df92402"))
     (pin "2" (uuid "60f38288-b1d5-5440-985b-0401ab139cf4"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "D9")
           (unit 1)
@@ -4756,7 +4756,7 @@
     (pin "1" (uuid "c4056b78-8294-589d-827e-5527464edf2a"))
     (pin "2" (uuid "48d4cd29-d810-5397-9da0-359740bf275d"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R2")
           (unit 1)
@@ -4831,7 +4831,7 @@
     (pin "1" (uuid "b9578a2a-7306-5f69-ac82-2b960963c0e8"))
     (pin "2" (uuid "9a59e67b-9f39-52a6-9f91-222c65e68528"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R3")
           (unit 1)
@@ -4895,7 +4895,7 @@
     )
     (pin "1" (uuid "920bb4a6-0a2d-5a06-acc3-5ec3fa63d03f"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR008")
           (unit 1)
@@ -4942,7 +4942,7 @@
     (pin "1" (uuid "5c702027-b047-51ed-8f9e-24cc004b2386"))
     (pin "2" (uuid "50f7b38c-c759-5882-a403-032b8f55c093"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "C2")
           (unit 1)
@@ -5006,7 +5006,7 @@
     )
     (pin "1" (uuid "779fce04-89df-5a02-bb5b-6fb4ac3eae26"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR009")
           (unit 1)
@@ -5070,7 +5070,7 @@
     (pin "3" (uuid "d9d9ee24-9f10-517b-9fa7-633b17c1e018"))
     (pin "4" (uuid "2b27d901-5c53-5c41-b81c-e4f88e628b1a"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "A2")
           (unit 1)
@@ -5134,7 +5134,7 @@
     )
     (pin "1" (uuid "f1d9b9bb-e4cb-5387-8cab-7ea1015b8be9"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR010")
           (unit 1)
@@ -5184,7 +5184,7 @@
     )
     (pin "1" (uuid "843ffaf5-b9f8-541a-bc2f-893b3fe3f458"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR011")
           (unit 1)
@@ -5234,7 +5234,7 @@
     )
     (pin "1" (uuid "20b989fb-b9ad-566b-a9bd-15eb5edb56c4"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR012")
           (unit 1)
@@ -5281,7 +5281,7 @@
     (pin "1" (uuid "31d11a70-6cdc-5cbd-b475-08eb872d833e"))
     (pin "2" (uuid "9c87bab1-5229-509e-a811-905466798019"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R4")
           (unit 1)
@@ -5331,7 +5331,7 @@
     )
     (pin "1" (uuid "14246ed0-34cd-53ff-ad18-658ee2c27674"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR013")
           (unit 1)
@@ -5395,7 +5395,7 @@
     (pin "2" (uuid "14a6e233-3e1d-5d40-ae26-c0bf97fbef04"))
     (pin "3" (uuid "1d3d5b2e-c6a3-536e-84e9-48499990a4f1"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "Q5")
           (unit 1)
@@ -5473,7 +5473,7 @@
     )
     (pin "1" (uuid "110c7b0d-065a-5a51-9a6d-6d42d3e094aa"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR014")
           (unit 1)
@@ -5520,7 +5520,7 @@
     (pin "1" (uuid "eb670c38-2ad4-51ee-b942-2303f658ef7b"))
     (pin "2" (uuid "273a81f1-7bea-599f-90d7-7dde85160e9b"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R5")
           (unit 1)
@@ -5595,7 +5595,7 @@
     (pin "1" (uuid "bb7d1083-d988-5bff-bb32-3e1c5a51e813"))
     (pin "2" (uuid "61fa2cfa-94d0-5698-8b4f-673e796140da"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R6")
           (unit 1)
@@ -5659,7 +5659,7 @@
     )
     (pin "1" (uuid "036d444b-2df8-56da-b77c-0836f5c74a91"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR015")
           (unit 1)
@@ -5721,7 +5721,7 @@
     (pin "1" (uuid "3e4b494e-6509-58cc-a099-7750215155db"))
     (pin "2" (uuid "490ca6dd-a69b-5335-b0c1-2e4dd448e514"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R7")
           (unit 1)
@@ -5796,7 +5796,7 @@
     (pin "1" (uuid "393455f2-2479-5b95-957b-88c58a02e811"))
     (pin "2" (uuid "cf12c3a4-2c9d-5a25-9a18-36e706eb5e3a"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "C3")
           (unit 1)
@@ -5860,7 +5860,7 @@
     )
     (pin "1" (uuid "a8f9aaa5-b455-5c44-93c7-c9686992610c"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR016")
           (unit 1)
@@ -5908,7 +5908,7 @@
     (pin "2" (uuid "398c2fe1-7ef2-5904-9baf-ef6d203dff3b"))
     (pin "3" (uuid "b0163eba-5dc3-5dac-9766-135fa9352d61"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "U1")
           (unit 1)
@@ -5997,7 +5997,7 @@
     (pin "1" (uuid "a16225f8-bbe6-5d24-959d-7f2eba38b0d7"))
     (pin "2" (uuid "1fff455e-2a27-54cf-afa4-7b1f7cba7efc"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R8")
           (unit 1)
@@ -6072,7 +6072,7 @@
     (pin "1" (uuid "7e70d36a-691d-5011-89c2-d4d6efcd623a"))
     (pin "2" (uuid "62c4359d-bee6-5077-ad0a-58d2d2951bce"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R9")
           (unit 1)
@@ -6136,7 +6136,7 @@
     )
     (pin "1" (uuid "157dfeb9-03fc-5ff0-ace3-cf80c9477acb"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR017")
           (unit 1)
@@ -6183,7 +6183,7 @@
     (pin "1" (uuid "ab9a786b-0f9e-5fa7-b881-ce54b5d4736d"))
     (pin "2" (uuid "f2d59ef6-69e9-5dd9-a6cc-c38046b7a665"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R10")
           (unit 1)
@@ -6258,7 +6258,7 @@
     (pin "1" (uuid "1e83ba44-e3d9-5aff-8690-a170ae3701cc"))
     (pin "2" (uuid "14f16206-9002-54a1-b655-75d4696d87a7"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "C4")
           (unit 1)
@@ -6322,7 +6322,7 @@
     )
     (pin "1" (uuid "e110d47d-2598-5649-a9c3-e57e1f02f103"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR018")
           (unit 1)
@@ -6367,7 +6367,7 @@
     (pin "1" (uuid "bd17ff6f-366c-5951-b470-d9abd3e4cdd5"))
     (pin "2" (uuid "ac44f7ce-8b32-58f6-9adb-297159f716c2"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "D1")
           (unit 1)
@@ -6417,7 +6417,7 @@
     )
     (pin "1" (uuid "fe9fe38b-7c99-53a7-ae29-6fd6defb5160"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR019")
           (unit 1)
@@ -6479,7 +6479,7 @@
     (pin "6" (uuid "0d6abba4-0859-5e6c-be6d-9c6fbd738e22"))
     (pin "7" (uuid "fcfc4532-f74d-52c4-b4ec-e00fcba9b85a"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "U1")
           (unit 2)
@@ -6568,7 +6568,7 @@
     (pin "1" (uuid "e7f99bf4-4f83-5d6f-8084-a4d1b8681c46"))
     (pin "2" (uuid "75b4fc1f-7aba-5b4f-9c1f-2cb9a62a5940"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R11")
           (unit 1)
@@ -6643,7 +6643,7 @@
     (pin "1" (uuid "ff8e1338-afad-50cb-8767-923213c40caa"))
     (pin "2" (uuid "55496967-8dbf-5705-8a0b-4af815143e65"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "C5")
           (unit 1)
@@ -6718,7 +6718,7 @@
     (pin "1" (uuid "4c9ad616-ea4c-57c9-81ac-8777ea7e47ee"))
     (pin "2" (uuid "93585b69-c4e2-5136-8c81-0e52fd17b2f5"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R12")
           (unit 1)
@@ -6791,7 +6791,7 @@
     (pin "1" (uuid "afebc697-4672-59ec-b8fc-20de5a41695b"))
     (pin "2" (uuid "27e0476c-7227-5653-b514-2325cd9f1f77"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "D2")
           (unit 1)
@@ -6866,7 +6866,7 @@
     (pin "1" (uuid "df8664b8-eaf6-5b3a-a3aa-0b6c48ebd9a5"))
     (pin "2" (uuid "78bea122-a1fb-5811-8e9f-2974994782fe"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R13")
           (unit 1)
@@ -6941,7 +6941,7 @@
     (pin "1" (uuid "c9e62193-1f14-5d40-adce-f862765cf64e"))
     (pin "2" (uuid "4617eaee-4835-5cba-878f-9da3bbbe3847"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R14")
           (unit 1)
@@ -7005,7 +7005,7 @@
     )
     (pin "1" (uuid "2dbd36d2-2660-5766-a36f-fed3a234574d"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR020")
           (unit 1)
@@ -7052,7 +7052,7 @@
     (pin "1" (uuid "b4d434a3-f7a1-5ee8-9350-94e4b3e1dfdd"))
     (pin "2" (uuid "beb8a64a-17cb-5f11-85ea-98e4f9e2d238"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R15")
           (unit 1)
@@ -7127,7 +7127,7 @@
     (pin "1" (uuid "f545bff4-0234-520c-ba83-26cab76ccc0f"))
     (pin "2" (uuid "7fda4fa2-d426-5b94-bbf5-f4262b375e4b"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "C6")
           (unit 1)
@@ -7191,7 +7191,7 @@
     )
     (pin "1" (uuid "a862a98f-7712-5986-8153-f44138469543"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR021")
           (unit 1)
@@ -7238,7 +7238,7 @@
     (pin "1" (uuid "8ccc8684-30eb-57ff-9ef2-0aa5768023e8"))
     (pin "2" (uuid "fa5805a8-59f2-5ef8-ae27-dc3b4fc28da1"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R16")
           (unit 1)
@@ -7313,7 +7313,7 @@
     (pin "1" (uuid "a9d96282-d511-545c-9fd4-9cf4f94cdce8"))
     (pin "2" (uuid "b70f0bda-be1e-536f-ac68-6a1b5cf0478a"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "C7")
           (unit 1)
@@ -7377,7 +7377,7 @@
     )
     (pin "1" (uuid "7ef06809-5d39-5c45-9bc5-730ad59f57e3"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR022")
           (unit 1)
@@ -7424,7 +7424,7 @@
     (pin "4" (uuid "4b69e415-5ba3-5503-b24f-205913061d80"))
     (pin "8" (uuid "24cbe0ba-46e0-5547-93e8-bf69551f5890"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "U1")
           (unit 3)
@@ -7474,7 +7474,7 @@
     )
     (pin "1" (uuid "1eba6dd0-e9ec-5125-bcfe-0fa886024812"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR023")
           (unit 1)
@@ -7524,7 +7524,7 @@
     )
     (pin "1" (uuid "0979bc51-53c4-5ce4-9c3d-52cd77c58a11"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR024")
           (unit 1)
@@ -7571,7 +7571,7 @@
     (pin "1" (uuid "79fe4f4d-d792-57ab-81ec-af5dda4af4e1"))
     (pin "2" (uuid "4685c70a-cc8a-543c-84b2-4b714d30999d"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "C8")
           (unit 1)
@@ -7621,7 +7621,7 @@
     )
     (pin "1" (uuid "72d389c7-95af-5bc0-ba49-112d355349a0"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR025")
           (unit 1)
@@ -7671,7 +7671,7 @@
     )
     (pin "1" (uuid "822f34cb-9149-578d-814e-f90257dde561"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR026")
           (unit 1)
@@ -7771,7 +7771,7 @@
     (pin "R19" (uuid "c9f27f62-62d7-53cb-b418-6bcf141e228a"))
     (pin "R20" (uuid "4c797346-f33d-5af8-b223-76f15b50f915"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "A3")
           (unit 1)
@@ -8007,7 +8007,7 @@
     )
     (pin "1" (uuid "f542e468-abd0-5976-bfae-4f7f18041bf2"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR027")
           (unit 1)
@@ -8057,7 +8057,7 @@
     )
     (pin "1" (uuid "ab4cac70-8f16-5062-9377-e31e1355b503"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR028")
           (unit 1)
@@ -8107,7 +8107,7 @@
     )
     (pin "1" (uuid "df1c8519-84e1-5fd1-b9d9-a49b054d8a18"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR029")
           (unit 1)
@@ -8330,7 +8330,7 @@
     )
     (pin "1" (uuid "b28f12d5-34b5-5788-b6d7-61141f511f75"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR030")
           (unit 1)
@@ -8380,7 +8380,7 @@
     )
     (pin "1" (uuid "8fe08b85-e494-5015-955b-d2c67e3091df"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR031")
           (unit 1)
@@ -8430,7 +8430,7 @@
     )
     (pin "1" (uuid "e84df6c7-a472-575b-bda7-661e56b959a8"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR032")
           (unit 1)
@@ -8500,7 +8500,7 @@
     (pin "8" (uuid "3bd75fa9-d54b-592c-aba9-f6e65b4e61d8"))
     (pin "9" (uuid "70512c15-b29b-559e-bcd4-f513bf1d98b4"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "DS1")
           (unit 1)
@@ -8715,7 +8715,7 @@
     (pin "1" (uuid "e6e86a34-8110-5438-aed2-ff1d372301bc"))
     (pin "2" (uuid "25b72a3a-5abf-57ea-a106-b46c6f03e11a"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R20")
           (unit 1)
@@ -8790,7 +8790,7 @@
     (pin "1" (uuid "da4a14aa-65bd-51df-b0ab-d85a832dfb9f"))
     (pin "2" (uuid "bb141a43-6181-55b5-9fc9-930d73f64e73"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R21")
           (unit 1)
@@ -8865,7 +8865,7 @@
     (pin "1" (uuid "4ee32ebd-0213-5ee8-929d-a072bd767710"))
     (pin "2" (uuid "19097393-4e11-5f91-ab3f-4f319cec70d9"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R22")
           (unit 1)
@@ -8940,7 +8940,7 @@
     (pin "1" (uuid "053541c6-9feb-56a8-b62c-26992986e8df"))
     (pin "2" (uuid "45e4571d-c7f7-52d0-9686-90abbcef3f7c"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R23")
           (unit 1)
@@ -9015,7 +9015,7 @@
     (pin "1" (uuid "b6d21430-8beb-56ad-bbee-365f7c8b06f3"))
     (pin "2" (uuid "89812aa0-ef1d-5957-88d5-6087767d27dd"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R24")
           (unit 1)
@@ -9090,7 +9090,7 @@
     (pin "1" (uuid "7ba1a181-d52b-560f-8b06-7d0680ab6059"))
     (pin "2" (uuid "80309206-0ec2-5770-9fc8-5d1d787d36e2"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R25")
           (unit 1)
@@ -9165,7 +9165,7 @@
     (pin "1" (uuid "6977a720-0e15-56f9-b845-1f2fc4a33ebb"))
     (pin "2" (uuid "151704ec-34ff-5eb1-9026-11dd371a0ca2"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R26")
           (unit 1)
@@ -9240,7 +9240,7 @@
     (pin "1" (uuid "13e06c35-0acb-56d8-bd94-1754a9f64a70"))
     (pin "2" (uuid "85d9e3ad-3344-5e5e-8ffe-ce10fd32a90d"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R27")
           (unit 1)
@@ -9318,7 +9318,7 @@
     (pin "2" (uuid "eb1b86a3-f70b-5424-abe5-4a0a4b1a0bc7"))
     (pin "3" (uuid "b5056270-7869-535a-ae65-de28f4543312"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "Q1")
           (unit 1)
@@ -9382,7 +9382,7 @@
     )
     (pin "1" (uuid "3e055983-6454-5215-8b22-2b1c2e789b1a"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR033")
           (unit 1)
@@ -9429,7 +9429,7 @@
     (pin "1" (uuid "c7e0cdc4-8c3f-5e80-8324-7f373b6218a2"))
     (pin "2" (uuid "4efddbbc-740e-5310-a64c-ce183fb36e1b"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R30")
           (unit 1)
@@ -9493,7 +9493,7 @@
     (pin "2" (uuid "cff2ab05-6aa7-5148-84dd-dd6ed8c5dd4f"))
     (pin "3" (uuid "aa5138cf-1e67-558c-92dd-c42f0b9d7dcc"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "Q2")
           (unit 1)
@@ -9557,7 +9557,7 @@
     )
     (pin "1" (uuid "c4fe4c5f-458b-51e5-98c2-bfcf10ee67da"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR034")
           (unit 1)
@@ -9604,7 +9604,7 @@
     (pin "1" (uuid "976681d1-2afb-5d37-939e-8747d48ffe5b"))
     (pin "2" (uuid "e7178e67-e2c7-54a1-8ad8-8b490412c3d3"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R31")
           (unit 1)
@@ -9668,7 +9668,7 @@
     (pin "2" (uuid "d96b5851-82fb-51be-b261-f55883fe18c3"))
     (pin "3" (uuid "df23d9b6-8c11-59a9-84ab-9a5bee5d9d02"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "Q3")
           (unit 1)
@@ -9732,7 +9732,7 @@
     )
     (pin "1" (uuid "ad82cc31-c9f5-5a4b-a6a8-b25b8f62412a"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR035")
           (unit 1)
@@ -9779,7 +9779,7 @@
     (pin "1" (uuid "a8dd8062-182d-597c-9621-5d9d7e6f55d5"))
     (pin "2" (uuid "4f45b840-25c2-51bc-97bf-3c5784dd792b"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R32")
           (unit 1)
@@ -9843,7 +9843,7 @@
     (pin "2" (uuid "01d980a7-ec6d-5462-b309-5fbc356f40e3"))
     (pin "3" (uuid "0227f33f-6818-5e6b-b6ef-ba02d332dc99"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "Q4")
           (unit 1)
@@ -9907,7 +9907,7 @@
     )
     (pin "1" (uuid "a5aa58ff-1686-514f-963d-accf7e7ee5eb"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR036")
           (unit 1)
@@ -9954,7 +9954,7 @@
     (pin "1" (uuid "f0498adb-19f7-59f6-aa3c-cecc33ed4f1a"))
     (pin "2" (uuid "881b633e-d9a8-51e2-9681-d838653e2bd1"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R33")
           (unit 1)
@@ -10031,7 +10031,7 @@
     (pin "2" (uuid "354180b2-7e23-53a0-be58-c9bd80650ba3"))
     (pin "3" (uuid "551bbc97-a670-5e44-aa99-eb454028acae"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "RV3")
           (unit 1)
@@ -10081,7 +10081,7 @@
     )
     (pin "1" (uuid "766d90ac-875e-528d-9fae-13c34218c50c"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR037")
           (unit 1)
@@ -10145,7 +10145,7 @@
     )
     (pin "1" (uuid "9ab8bbb9-46e7-58a2-bf40-80dc468d33e4"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR038")
           (unit 1)
@@ -10192,7 +10192,7 @@
     (pin "1" (uuid "d181704e-6095-5a73-b5d8-34cd4afc5a15"))
     (pin "2" (uuid "92fe3a99-48a4-525a-80c0-1dfe79cc39f7"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "C9")
           (unit 1)
@@ -10256,7 +10256,7 @@
     )
     (pin "1" (uuid "e2dd300d-50cc-5906-a1ab-f5768ec73452"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR039")
           (unit 1)
@@ -10303,7 +10303,7 @@
     (pin "1" (uuid "8e96f218-3005-5f1c-a7c0-ce4ba6c75818"))
     (pin "2" (uuid "33f2ba29-3420-53ec-acfe-ba53892e8572"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R18")
           (unit 1)
@@ -10353,7 +10353,7 @@
     )
     (pin "1" (uuid "c8d0c654-4bab-568b-bc05-acf0480b3316"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR040")
           (unit 1)
@@ -10414,7 +10414,7 @@
     (pin "1" (uuid "33c696fc-7997-58cd-b7a0-2f5a2c920cf5"))
     (pin "2" (uuid "0edab256-d071-5fa4-9576-53c3951181b5"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "RT1")
           (unit 1)
@@ -10478,7 +10478,7 @@
     )
     (pin "1" (uuid "7dedac9e-0f02-5e3f-8f81-cdf03896dc8a"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR041")
           (unit 1)
@@ -10525,7 +10525,7 @@
     (pin "1" (uuid "3bdc7a0b-4659-5e36-ab2b-069bc0ac5c1e"))
     (pin "2" (uuid "491f525a-bca4-5f46-9764-1c1c6ae572ec"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "C10")
           (unit 1)
@@ -10589,7 +10589,7 @@
     )
     (pin "1" (uuid "8f929af5-0347-570f-be78-5e9c3751d709"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR042")
           (unit 1)
@@ -10635,7 +10635,7 @@
     (pin "1" (uuid "05801aba-3f8f-5b51-a910-1f3537dda590"))
     (pin "2" (uuid "7a60d5d7-efe0-5eca-8f89-53ff24e2b0a3"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "SW2")
           (unit 1)
@@ -10699,7 +10699,7 @@
     )
     (pin "1" (uuid "632dd9a3-88fe-5985-94e2-f0db07e020e0"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR043")
           (unit 1)
@@ -10745,7 +10745,7 @@
     (pin "1" (uuid "8252e004-bd89-55ef-a76d-780ff7e712a5"))
     (pin "2" (uuid "66895ed9-d41a-5bb7-a158-8da9db738466"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "SW3")
           (unit 1)
@@ -10809,7 +10809,7 @@
     )
     (pin "1" (uuid "dc681d23-eca3-52f7-802c-0b862c0fddcc"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR044")
           (unit 1)
@@ -10856,7 +10856,7 @@
     (pin "1" (uuid "27d152d5-5844-57a0-ace0-b28eb418fa5b"))
     (pin "2" (uuid "d282d360-6758-573f-9b43-3507cd6c9311"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R40")
           (unit 1)
@@ -10930,7 +10930,7 @@
     (pin "1" (uuid "aaafec5a-d8c6-5172-9bb0-17f0cb9e8ad7"))
     (pin "2" (uuid "4dc320f7-146d-5211-9295-8d341512c788"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "D3")
           (unit 1)
@@ -10980,7 +10980,7 @@
     )
     (pin "1" (uuid "4d7bbc5b-6da1-5992-b9ad-3d2b759a7fd1"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR045")
           (unit 1)
@@ -11041,7 +11041,7 @@
     (pin "1" (uuid "a1fdadc1-dcd5-5505-8c9a-324965a586c5"))
     (pin "2" (uuid "1b48ffe0-f341-5d6c-b1fd-da5d7eed53ea"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R41")
           (unit 1)
@@ -11115,7 +11115,7 @@
     (pin "1" (uuid "60c2a90f-ffda-5554-b94e-52dd23869714"))
     (pin "2" (uuid "6bf1b7fe-5969-5f19-b282-03e6dee51292"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "D4")
           (unit 1)
@@ -11165,7 +11165,7 @@
     )
     (pin "1" (uuid "20cd2798-d632-5698-95d4-9d86ee47607a"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR046")
           (unit 1)
@@ -11226,7 +11226,7 @@
     (pin "1" (uuid "39091317-8612-5ea7-b670-d9046c3ebae9"))
     (pin "2" (uuid "1281574b-704d-5292-b1a5-f8b8777a94fa"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R42")
           (unit 1)
@@ -11300,7 +11300,7 @@
     (pin "1" (uuid "4a3b94ff-da37-558e-931d-dadf0b6e569d"))
     (pin "2" (uuid "e7e90562-3586-5bc1-9ca0-bad36c760aaf"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "D5")
           (unit 1)
@@ -11350,7 +11350,7 @@
     )
     (pin "1" (uuid "c501552e-ef7b-5b1d-a369-c52f0c5cceb6"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR047")
           (unit 1)
@@ -11411,7 +11411,7 @@
     (pin "1" (uuid "bad3d681-eed3-5f02-96cc-905752ac9bba"))
     (pin "2" (uuid "f62a2b9e-f9a9-5499-822c-6e2cfb3bc1a5"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "R43")
           (unit 1)
@@ -11485,7 +11485,7 @@
     (pin "1" (uuid "762bc20f-6b4e-5763-8ce9-81780d3269f6"))
     (pin "2" (uuid "406234ea-929d-57c0-8a90-f7f0d45d4cd8"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "D6")
           (unit 1)
@@ -11535,7 +11535,7 @@
     )
     (pin "1" (uuid "3a9f7c9e-8551-56dd-b744-75b5d135d3b3"))
     (instances
-      (project "buckbench"
+      (project "buckbench-cc20"
         (path "/8519c7ce-4948-56da-b8bb-2b9220a1fb0f"
           (reference "#PWR048")
           (unit 1)
